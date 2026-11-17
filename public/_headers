@@ -1,0 +1,7 @@
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' https://accounts.google.com/gsi/client; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' blob: data: https:; worker-src 'self' blob:; connect-src 'self' https:; frame-src https://accounts.google.com https://www.openstreetmap.org; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; object-src 'none'
+  Referrer-Policy: no-referrer
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000

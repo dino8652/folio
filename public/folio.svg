@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Folio — folded pages</title>
+  <rect width="64" height="64" rx="19" fill="#202821"/>
+  <path d="M15 43V23a8 8 0 0 1 8-8h26L36 28H28v8L15 49v-6Z" fill="#D5EF86"/>
+  <path d="M49 21v20a8 8 0 0 1-8 8H15l13-13h8v-8l13-13v6Z" fill="#F4F6EE"/>
+  <path d="m28 36 8-8v8h-8Z" fill="#91AD55"/>
+</svg>

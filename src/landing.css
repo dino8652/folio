@@ -1,0 +1,58 @@
+.landing{background:#f5f6f0;color:#243c32;min-height:100svh;font-family:'DM Sans Variable',sans-serif}.landing button,.landing a{box-shadow:none;text-transform:none;letter-spacing:normal}.landing button{border:0;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:48px;padding:14px 24px;background:#e7ecdf;color:#243c32;transition:transform .2s,background .2s}.landing button:hover{background:#d5e4bb;transform:translateY(-3px)}.landing button:active{transform:scale(.96)}.landing-nav{padding:24px 4vw;display:flex;justify-content:space-between;align-items:center}.landing-nav nav{display:flex;gap:32px;align-items:center}.landing-nav a{color:inherit;text-decoration:none}.landing-hero{padding:9vh 4vw 7vh;min-height:calc(100svh - 106px);display:flex;flex-direction:column;justify-content:space-between}.landing h1{font-size:clamp(64px,11.9vw,190px);font-weight:500;letter-spacing:-.075em;line-height:.96;margin:0;animation:folio-rise .8s both}.landing-hero-bottom{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-top:65px}.landing-hero-bottom p{font-size:22px;line-height:1.5;max-width:440px;margin:0}.landing .landing-cta{background:#d4f292;padding:22px 32px;font-size:20px;min-width:220px}.landing-story{padding:120px 7vw;background:#203c31;color:#f4f6ed;display:grid;grid-template-columns:1fr 1fr;gap:12vw}.landing h2{font-weight:500;letter-spacing:-.045em;line-height:1.05;font-size:clamp(36px,4.6vw,76px);margin:0 0 32px}.landing-story p{font-size:18px;line-height:1.65;max-width:420px;color:inherit}.landing-sequence{display:grid;gap:46px}.landing h3{font-size:24px;font-weight:500;margin:0}.landing-footer{padding:110px 4vw 30px}.landing-footer p{margin:90px 0 0}.entry-layout{display:grid;grid-template-columns:1fr 1fr;min-height:calc(100svh - 110px)}.entry-intro{padding:45px 4vw 70px;background:#e7ecdf;display:flex;flex-direction:column;align-items:start;gap:40px}.entry-intro h1{font-size:clamp(52px,6.6vw,104px);white-space:pre-line;margin-top:40px}.entry-intro p{font-size:20px;max-width:330px}.entry-form{padding:65px max(32px,7vw);align-self:center}.entry-form h2{font-size:36px}.entry-form>p{line-height:1.6;margin-bottom:28px}.entry-form .form-stack{gap:16px}.entry-form input,.entry-form select{background:#fff}.entry-form .auth-action{background:#d4f292;width:100%}.entry-alternate{font-size:15px;margin-top:25px}.entry-alternate button{padding:5px 12px;background:none;text-decoration:underline}.entry-switch{padding:20px;background:#e7ecdf}.entry-back{padding-left:0!important;background:none!important}@keyframes folio-rise{from{opacity:0;transform:translateY(35px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:700px){.landing-nav{padding:20px}.landing-nav nav{gap:12px}.landing-nav nav>a{display:none}.landing-hero{padding:60px 20px 42px;min-height:75svh}.landing h1{font-size:14vw;letter-spacing:-.065em}.landing-hero-bottom{align-items:start;flex-direction:column;gap:28px;margin-top:45px}.landing-hero-bottom p{font-size:18px}.landing-story{padding:70px 24px;grid-template-columns:1fr;gap:40px}.landing-footer{padding:70px 24px 24px}.entry-layout{grid-template-columns:1fr}.entry-intro{padding:20px 24px 32px;gap:16px}.entry-intro h1{font-size:52px;margin-top:0}.entry-intro>svg,.entry-intro>p{display:none}.entry-form{padding:35px 24px}.entry-form h2{font-size:32px}}
+@media(prefers-reduced-motion:reduce){.landing *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* Entry screens use their own type scale and alignment, independent of the hero. */
+.landing .entry-layout{width:min(1280px,calc(100% - 64px));margin:24px auto 64px;min-height:680px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;align-items:stretch}
+.landing .entry-intro{padding:32px 44px 48px;border-radius:28px;gap:0;min-width:0}
+.landing .entry-intro-copy{margin-top:64px;width:100%}
+.landing .entry-intro h1{font-size:clamp(38px,4.1vw,60px);line-height:1.08;letter-spacing:-.055em;white-space:pre-line;margin:0;animation:none;overflow-wrap:normal}
+.landing .entry-intro-copy>p{font-size:18px;line-height:1.65;max-width:31ch;margin:28px 0 0}
+.landing .entry-security{display:flex;align-items:center;gap:10px;margin-top:48px;font-size:14px;color:#52634f}
+.landing .entry-form{width:100%;min-width:0;max-width:520px;justify-self:center;align-self:start;padding:144px 40px 48px}
+.landing .entry-form h2{font-size:32px;line-height:1.2;letter-spacing:-.04em;margin:0 0 18px}
+.landing .entry-form>p{font-size:15px;line-height:1.65;margin:0 0 28px}
+.landing .entry-form .form-stack{gap:16px}
+.landing .entry-form input,.landing .entry-form select{width:100%;min-height:48px}
+.landing .entry-switch{padding:22px;background:#e8eddf;border-radius:18px}
+.landing .entry-switch p{font-size:15px;line-height:1.65;margin:0 0 20px}
+.landing .entry-switch>button{width:100%;background:#263f33;color:#fff;font-size:15px;padding:14px 18px;justify-content:space-between}
+.landing .entry-switch>button:hover{background:#365743;color:#fff}
+.landing .entry-alternate{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px;margin:24px 0 0!important;font-size:14px!important}
+.landing .entry-layout button.entry-back,.landing .entry-layout .entry-alternate button{background:transparent!important;border:0;border-radius:0;box-shadow:none!important;min-height:44px;transform:none!important;color:#243c32;padding:0!important;gap:10px;line-height:1.5}
+.landing .entry-layout .entry-alternate button{display:inline;padding:0 2px!important;min-height:0;text-underline-offset:4px;text-decoration:underline;font-weight:600}
+.landing .entry-layout button.entry-back:hover,.landing .entry-layout .entry-alternate button:hover{color:#55782e}
+.landing .entry-layout .auth-action:not(:disabled){background:#d4f292;color:#243c32;box-shadow:0 3px 0 #b8cb94}
+.landing .entry-layout .auth-action:not(:disabled):hover{background:#def5b3;color:#243c32}
+.landing .entry-layout button:focus-visible{outline:3px solid #73953e;outline-offset:5px}
+@media(max-width:1000px) and (min-width:701px){.landing .entry-layout{width:calc(100% - 40px)}.landing .entry-intro{padding:32px 28px}.landing .entry-form{padding:144px 28px 40px}.landing .entry-intro h1{font-size:clamp(32px,4.2vw,42px)}}
+@media(max-width:700px){.landing .entry-layout{width:calc(100% - 32px);grid-template-columns:1fr;margin:8px auto 32px;min-height:0}.landing .entry-intro{padding:16px 24px 28px;border-radius:22px}.landing .entry-intro-copy{margin-top:24px}.landing .entry-intro h1{font-size:clamp(30px,7.8vw,48px);line-height:1.12}.landing .entry-intro-copy>p{font-size:15px;line-height:1.55;margin-top:16px;max-width:34ch}.landing .entry-security{margin-top:22px;font-size:12px}.landing .entry-form{padding:32px 16px 20px;max-width:480px}.landing .entry-form h2{font-size:27px}.landing .entry-form>p{font-size:14px;margin-bottom:22px}.landing .entry-switch{padding:20px}.landing .entry-switch p{font-size:14px}}
+.landing .account-form{gap:10px}.landing .account-form>label,.password-label label{font-size:14px;font-weight:600}.account-input{position:relative;display:flex;align-items:center;background:white;border:1px solid #ccd5c3;border-radius:999px;padding-left:18px;gap:10px}.account-input>svg{flex-shrink:0;color:#6d7e67}.landing .account-input input{border:0;box-shadow:none;background:transparent;min-height:52px;padding:12px 45px 12px 0;min-width:0;outline-offset:3px}.account-input:focus-within{outline:3px solid #bfda9950;border-color:#829e5d}.landing .account-input .password-toggle{position:absolute;right:5px;top:4px;min-height:44px;width:40px;padding:0;background:transparent;box-shadow:none!important;transform:none;border:0;color:#52684a}.password-label{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:12px}.landing .account-form .account-text-button{padding:0;min-height:24px;font-size:13px;background:none;box-shadow:none!important;transform:none;border-radius:0;text-decoration:underline;text-underline-offset:3px}.password-guidance{display:flex;gap:7px;align-items:start;font-size:12px;line-height:1.5;color:#67735f;margin:2px 0 8px}.password-guidance svg{flex-shrink:0;margin-top:2px;color:#9aa592}.password-guidance .met{color:#427327}.landing .account-form .auth-action{justify-content:center;margin-top:12px;min-height:52px;gap:16px}.account-fine{font-size:12px;line-height:1.6;color:#66725e;margin:10px 0 0}.account-notice{background:#e4eed6;border-radius:12px;padding:16px;font-size:14px;line-height:1.6}.legacy-vault{margin-top:28px;font-size:13px}.legacy-vault summary{cursor:pointer;color:#5f7057}.legacy-vault>p{line-height:1.6}.account-reset-copy h3{font-size:22px}.account-reset-copy p{font-size:14px}.account-form .error-text{font-size:14px}
+
+/* The wrapper owns field focus. The visibility button keeps its own keyboard ring. */
+.landing .account-input:focus-within {
+  outline: 0;
+  border-color: #65833e;
+  box-shadow: 0 0 0 3px #65833e32;
+}
+.landing .account-input input:focus,
+.landing .account-input input:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+.landing .account-input:has(.password-toggle) {
+  padding-right: 49px;
+}
+.landing .account-input:has(.password-toggle) input {
+  padding-right: 52px;
+}
+
+.landing .account-form .error-text,
+.onboarding-step .error-text {
+  margin: 4px 0 0;
+  padding: 12px 16px;
+  border-radius: 18px;
+  background: #f9e9e4;
+  color: #873d2e;
+  font-size: 14px;
+  line-height: 1.45;
+}

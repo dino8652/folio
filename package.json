@@ -1,0 +1,40 @@
+{
+  "name": "folio-finance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --experimental-strip-types --disable-warning=ExperimentalWarning --test test/*.test.ts",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "better-auth": "1.7.25",
+    "lucide-react": "1.73.0",
+    "motion": "14.14.0",
+    "papaparse": "5.7.1",
+    "pdfjs-dist": "6.5.438",
+    "qrcode": "^1.5.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-markdown": "^10.1.0",
+    "read-excel-file": "9.3.17"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20261115.1",
+    "@playwright/test": "1.65.1",
+    "@types/node": "26.6.6",
+    "@types/papaparse": "5.5.2",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.8",
+    "wrangler": "4.162.0"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vault/
+.env*
+playwright-report/
+test-results/
+
+.dev.vars*
+.wrangler/
+firebase-debug.log
+.DS_Store
+/.taste-skill/
